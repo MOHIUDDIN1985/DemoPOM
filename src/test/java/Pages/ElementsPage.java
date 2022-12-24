@@ -26,7 +26,7 @@ public class ElementsPage extends BasePage {
 		Thread.sleep(3000);
 		((JavascriptExecutor) driver).executeScript("scroll(0,300)");
 		driver.findElement(By.id("permanentAddress")).sendKeys(Paddress);
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		driver.findElement(By.id("submit")).click();
 		Thread.sleep(3000);
 }
